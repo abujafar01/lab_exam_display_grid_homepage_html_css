@@ -1,0 +1,244 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: "Open Sans", sans-serif;
+}
+/* header section start */
+.container{
+  max-width: 1140px;
+    margin: 0px auto;
+  padding: 0px 30px;
+}
+.top-header-section{
+	background: #173B69;
+}
+.top-header-section a{
+	color: #fff;
+	font-size: 13px;
+	text-decoration: none;
+}
+.top-header-section .main-column{
+	display: grid;
+    grid-template-columns: 3fr 1fr;
+	margin: 15px;
+	padding: 25px;
+ }
+ .top-header-section .right-column{
+	 text-align: right;
+ }
+ .top-header-section .container{
+	 max-width: 1140px;
+     margin: 0px auto;
+	 padding: 0px 30px;
+ }
+ .top-header-section .phone{
+	 padding-right: 40px;
+ }
+ .top-header-section .left-column i{
+	 padding-right: 5px;
+ }
+ .top-header-section .fa-twitter{
+	 padding-left: 15px;
+	 padding-right: 15px;
+ } /* header section end */
+ /* nav section  start*/
+ .main-header li{
+	 list-style: none;
+     display: inline-block;
+     padding-right: 50px;
+ }
+.main-header a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 700;
+	text-transform: uppercase;
+	position: relative;
+}
+.main-header .main-column .left-column{
+  padding: 0 15px;
+}
+.main-header .main-column .right-column ul li:last-child{
+  text-align: right;
+}
+.main-header a::after{
+	
+  content: '';
+  width: 0;
+  height: 5px;
+  background: #000;
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translate;
+  transform: translatex(-50%);
+}
+.main-header a:hover:after{
+	width: calc(100% + 30px);
+	transition: .4s;
+}
+.main-header .main-column{
+	display: grid;
+   grid-template-columns: 1fr 3fr;
+   align-items: center;
+
+}
+.main-header .main-column .right-column{
+	text-align: right;
+	
+}
+
+
+.main-header .left-column img{
+  margin-right: auto;
+  margin-left: 15px;
+}
+/* nav section  end*/
+/* banner start */
+.banner_section{
+ background: url("../../image/banner_image.jpg");
+ background-repeat: no-repeat;
+ margin: 35px 0;
+  padding: 85px 0;
+ 
+}
+.banner_section .main-column{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 100px 0;
+ 
+}
+.banner_section .main-column .left_column{
+  text-align: center;
+}
+.banner_section .main-column .left_column h2{
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+  padding: 25px 0;
+}
+.banner_section .main-column .left_column p{
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  padding: 0 55px 25px 55px;
+  line-height: 25px;
+}
+/* about start */
+.about_section{
+  padding: 95px 0;
+  text-align: center;
+  background: #00000014;
+
+}
+.about_section .main-column .left_column img{
+  width: 100%;
+}
+.about_section .main-column{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  gap: 55px;
+}
+.about_section .main-column .right_column p{
+  font-size: 17px;
+  font-weight: 300;
+  color: #55505094;
+  line-height: 35px;
+  text-align: left;
+  padding: 10px 45px;
+}
+.about_section h2{
+  font-size: 35px;
+  font-weight: 500;
+  color: #583d3d;
+  padding: 25px 0;
+}
+/* staff information */
+.profile_section{
+  padding: 85px 0;
+  text-align: center;
+  background: #2142a41a;
+  margin: 45px 0;
+}
+
+.profile_section .main_column {
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+	gap: 25px;
+	text-align: center;
+}
+
+.profile_section .main_column .staff_information{
+	box-shadow: 1px 3px 3px gray;
+  border-radius: 10px;
+  margin: 25px 0;
+}
+.profile_section .main_column .staff_information h2{
+	font-size: 35px;
+  font-weight: 500;
+  color: #000000a6;
+  text-transform: uppercase;
+}
+.profile_section .main_column .staff_information p{
+	font-size: 17px;
+  font-weight: 300;
+  color: #00000063;
+  padding: 7px 6px;
+  text-align: left;
+  line-height: 30px;
+}
+.profile_section .main_column .staff_information img{
+  width: 100%;
+}
+.profile_section h2{
+	font-size: 35px;
+  font-weight: 500;
+  color: #978181;
+  
+}
+
+/* footer section start */
+
+.footer-section img{
+	font-size: 15px;
+  margin: 45px 25px;
+}
+.footer-section {
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+  background: #a22f9ba8;
+}
+.footer-section i{
+	font-size: 25px;
+  color: #7f7f7f;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #7f7f7f;
+  line-height: 50px;
+}
+.footer-section .fa-twitter{
+ margin-left: 35px;
+  margin-right: 35px;
+}
+/* footer section end */
+.socket-section {
+  text-align: center;
+  background: #000;
+  padding: 20px 35px;
+}
+.socket-section a{
+  font-size: 15px;
+  color: #fff;
+
+ 
+}
+.socket-section p{
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+
+}
